@@ -1,6 +1,6 @@
+require("hkder.buffer")
 require("hkder.remap")
 require("hkder.set")
-require("hkder.buffer")
 
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
